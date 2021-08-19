@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: poppins;
+}
+
+.page-wraper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cv-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 90vh;
+    width: 50%;
+
+}
+
+.sec-one{
+    position: relative;
+    color: white;
+}
+
+.picture-div{
+    background-color: grey;
+    width: 100%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(253, 162, 129);
+}
+
+.picture-div img{
+    height: 15rem;
+        
+}
+
+.text-div{
+    height: 69%;
+    background-color: black;
+    padding: 2rem;
+}
+
+.about{
+    margin-bottom: 4rem;
+}
+
+.reference{
+    margin-top: 4rem;
+}
+
+.ref-one{
+    color: white;
+}
+
+h5{
+    margin-bottom: .5rem;
+}
+
+h6{
+    padding-top: .4rem
+}
+
+.sec-two{
+    background-color: white;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+p{
+    color:grey;
+    font-size:.5rem;
+}
+
+.sec-two p{
+    font-size: .7rem;
+}
+
+.sec-two h6{
+    font-size: .8rem;
+    padding-top: .5rem;
+}
+
+.sec{
+    padding-top: 1.5rem;
+}
+
+.name-div{
+    border-bottom: 3px solid rgb(253, 162, 129);
+    padding-top: 1.2rem
+}
+
+.my-name{
+    font-size: 1.5rem;
+    padding-top: .2rem;
+}
+
+.my-role{
+    letter-spacing: .2rem;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.logo{
+    height: 1.2rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+
+.logo-text{
+    padding-bottom: .3rem;
+    margin-top: -rem;
+}
+.ul-div{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+ul li{
+    font-size: .7rem;
+}
+ .ul-div a{
+     text-decoration: none;
+ }
+
+
+ @media  screen and {
+     
+ }

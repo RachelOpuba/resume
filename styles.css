@@ -10,7 +10,8 @@ body{
 }
 
 .page-wraper{
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,9 +21,9 @@ body{
 .cv-container{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 90vh;
+    height: 100%;
     width: 50%;
-
+    justify-content: center;
 }
 
 .sec-one{
